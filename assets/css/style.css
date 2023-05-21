@@ -69,6 +69,8 @@ p {
     font-size: 16px;
 }
 
+
+/* to be adjusted XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 .hero {
     height: 800px;
     width: 100%;
@@ -78,7 +80,35 @@ p {
     background-position: center;
 }
 
-/* check the float left and float right */
+/* content class changed to article element and moved up the CSS code for semantic flow  */
+article {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* three same class elements. consolidated to one and renamed*/
+.information {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+/* three same class elements. consolidated to one. for class element removed to follow semantic flow*/
+img {
+    max-height: 200px;
+}
+
+/* three same class elements. consolidated to one. for class element removed to follow semantic flow*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -89,11 +119,27 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* next section XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* three same class elements */
+.article-section {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
+
+.article {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+
+
 
 .benefits {
     margin-right: 20px;
@@ -106,21 +152,6 @@ p {
     background-color: #2589bd;
 }
 
-/* three same class elements */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 /* three same class elements  */
 .benefit-lead h3 {
@@ -158,62 +189,7 @@ p {
     max-width: 150px;
 }
 
-/* three same class elements */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* three same class elements */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* three same class elements */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* combine these two? */
 .footer {
