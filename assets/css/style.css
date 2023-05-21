@@ -11,24 +11,29 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* class selector changed to element elector for header  */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* header element removed to follow semantic flow */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* why three for the one header  */
-.header h1 .seo {
+/* deleted. not contributing to CSS stylings  
+header h1 .seo {
     color: #d9dcd6;
 }
+*/
 
-.header div {
+/* div tag removed. nav tag added for semantics  */
+/* header element removed to follow semantic flow */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,15 +41,25 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* div tag removed. nav tag added for semantics  */
+/* header element removed to follow semantic flow */
+/* nav element removed to follow semantic flow */
+/* deleted. not contributing to CSS stylings 
+ul {
     list-style-type: none;
 }
+*/
 
-.header div ul li {
+/* div tag removed. nav tag added for semantics  */
+/* header element removed to follow semantic flow */
+/* nav tag removed to follow semantic flow  */
+/* ul removed to clean up code. CSS styling is applied to li */
+li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* color is required. a tag has blue font. text decoration removes underlining  */
 a {
     color: #ffffff;
     text-decoration: none;
