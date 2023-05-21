@@ -119,29 +119,9 @@ h2 {
     margin-left: 25px;
 }
 
-/* next section XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* aside section */
 
-/* three same class elements */
-.article-section {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.article {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-
-
-
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -152,43 +132,24 @@ h2 {
     background-color: #2589bd;
 }
 
+/* three same class elements. conolidated to one and renamed */
+.side-box {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
-/* three same class elements  */
-.benefit-lead h3 {
+/* three same class elements. conolidated to one. element removed to follow semantic flow */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-/* three same class elements */
-.benefit-lead img {
+/* three same class elements. conolidated to one. id selector add to maintain semantic flow */
+#img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 
 
 /* combine these two? */
