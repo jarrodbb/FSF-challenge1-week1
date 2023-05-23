@@ -1,5 +1,6 @@
 /* add notes for css styling  */
 /* consolidate css styling */
+/* checked for correct semantic flow  */
 
 * {
     box-sizing: border-box;
@@ -20,7 +21,8 @@ header {
 }
 
 /* header element removed to follow semantic flow */
-h1 {
+/* ensured correct parent child relationship exists to have correct semantic flow  */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -31,9 +33,13 @@ header h1 .seo {
 }
 */
 
+
+/* Article  */
+
 /* div tag removed. nav tag added for semantics  */
 /* header element removed to follow semantic flow */
-nav {
+/* ensured correct parent child relationship exists to have correct semantic flow  */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -51,10 +57,8 @@ ul {
 */
 
 /* div tag removed. nav tag added for semantics  */
-/* header element selector removed to follow semantic flow */
-/* nav tag removed to follow semantic flow  */
-/* ul removed to clean up code. CSS styling is applied to li */
-li {
+/* ensured correct parent child relationship exists to have correct semantic flow  */
+header nav li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -70,7 +74,7 @@ p {
 }
 
 
-/* more descriptive class desctiptor. Added note that it's a background image */
+/* more descriptive class descriptor substituted. Added note that it's a "background image" */
 .background-image {
     height: 800px;
     width: 100%;
@@ -98,12 +102,14 @@ article {
 }
 
 
-/* three same class selector. consolidated to one. for class element removed to follow semantic flow*/
-img {
+/* three same class selector. consolidated to one. parent's name (.information) updated to follow semantic flow*/
+/* ensured correct parent child relationship exists to have correct semantic flow  */
+.information img {
     max-height: 200px;
 }
 
-/* three same class selector. consolidated to one. for class element removed to follow semantic flow*/
+/* three same class selector. consolidated to one. parent's name (.information) updated to follow semantic flow*/
+/* ensured correct parent child relationship exists to have correct semantic flow  */
 .information h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -119,7 +125,7 @@ img {
     margin-left: 25px;
 }
 
-/* aside section */
+/* aside */
 
 aside {
     margin-right: 20px;
@@ -138,13 +144,15 @@ aside {
     color: #ffffff;
 }
 
-/* three same class selector. conolidated to one. element removed to follow semantic flow */
-h3 {
+/* three same class selector. conolidated to one. parent's name (.side-box) updated to follow semantic flow */
+/* ensured correct parent child relationship exists to have correct semantic flow  */
+.side-box h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* three same class selector. conolidated to one. id selector add to maintain semantic flow */
+/* three same class selector. conolidated to one. parent's name (.side-box) updated to follow semantic flow */
+/* ensured correct parent child relationship exists to have correct semantic flow  */
 .side-box img {
     display: block;
     margin: 10px auto;
@@ -153,6 +161,7 @@ h3 {
 
 
 /* footer */
+
 /* class selector removed. Element selector added   */
 footer {
     padding: 30px;
@@ -162,7 +171,8 @@ footer {
     
 }
 
-/* class selector removed for semantic flow  */
+/* class selector chnaged to element selector  */
+/* ensured correct parent child relationship exists to have correct semantic flow  */
 footer h2 {
     font-size: 20px;
 }
