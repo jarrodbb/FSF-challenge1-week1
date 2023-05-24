@@ -23,11 +23,11 @@ Chrome Devtools can be used to inspect the page. CSS code will show the correct 
 
 ### updated links
 
-[alt text](.assets/images/links.png)
+[alt text](assets/images/links.png)
 
 ### Correct semantic flow 
 
-[alt text](.assets/images/semantic-flow.png)
+[alt text](assets/images/semantic-flow.png)
 
 ## Credits
 
