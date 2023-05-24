@@ -16,6 +16,16 @@ N/A
 
 ## Usage
 
+Source code has been provided through Gitlab and cloned locally
+[Gitlab](https://git.bootcampcontent.com/University-of-Sydney/USYD-VIRT-FSF-PT-05-2023-U-LOLC/-/tree/main/01-HTML-Git-CSS/02-Challenge)
+
+Source code has been updated locally and merged to Github repo. The code index.html is the working code file
+[index.html](https://github.com/jarrodbb/FSF-challenge1-week1)
+
+Assets folder contains the required images and CSS code in the css folder. The style.css is the file the was reviewed and optimised for semantic flow
+
+[style.css](https://github.com/jarrodbb/FSF-challenge1-week1)
+
 Exisiting site for Horiseon. Site outlines SEO, online management and Social media marketing
 
 Chrome Devtools can be used to inspect the page. CSS code will show the correct semantic flow for the site while still achieving the same end result. The HTML code and comments explain the areas that were updated including the links to ensure they work
@@ -23,11 +33,11 @@ Chrome Devtools can be used to inspect the page. CSS code will show the correct 
 
 ### updated links
 
-[alt text](assets/images/links.png)
+[Links updated](assets/images/links.png)
 
 ### Correct semantic flow 
 
-[alt text](assets/images/semantic-flow.png)
+[Semantic flow](assets/images/semantic-flow.png)
 
 ## Credits
 
