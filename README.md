@@ -12,10 +12,6 @@ The CSS code was consolidated and improved while still achieving the same end re
 
 ## Installation
 
-N/A
-
-## Usage
-
 Source code has been provided through Gitlab and cloned locally
 [Gitlab](https://git.bootcampcontent.com/University-of-Sydney/USYD-VIRT-FSF-PT-05-2023-U-LOLC/-/tree/main/01-HTML-Git-CSS/02-Challenge)
 
@@ -25,6 +21,8 @@ Source code has been updated locally and merged to Github repo. The code index.h
 Assets folder contains the required images and CSS code in the css folder. The style.css is the file the was reviewed and optimised for semantic flow
 
 [style.css](https://github.com/jarrodbb/FSF-challenge1-week1)
+
+## Usage
 
 Exisiting site for Horiseon. Site outlines SEO, online management and Social media marketing
 
